@@ -1,0 +1,43 @@
+.wrapper {
+  padding: 50px;
+}
+
+.form {
+  background: rgb(24, 43, 153);
+  border: 2px solid red;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.form__fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__field {
+  margin-bottom: 15px;
+}
+
+.form__input {
+  background: rgb(87, 106, 211);
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 5px;
+  width: 230px;
+}
+
+.form__input:hover,
+.form__input:focus {
+  border: 1px solid transparent;
+  outline: transparent;
+  border-radius: 4px;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.form__input-large {
+  width: 480px;
+}
